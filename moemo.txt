@@ -1,0 +1,28 @@
+yarn add --dev react-three-fiber
+yarn add -D three
+yarn add -D react-spring@next
+
+tsconfig
+
+"moduleResolution": "node",
+
+useRefは値の参照 + 前の値の参照に使える
+例えば
+
+function usePrevious(value: any) {
+  const ref = useRef(null);
+  useEffect(() => {
+    ref.current = value;
+  });
+  return ref.current;
+}
+
+react-three-fiberの
+useResourceについて
+通常、マテリアルなどは、それを使用するすべてのインスタンスに対して再作成されるわけではありません。リソースを共有して再利用したい場合もあるでしょう。useResource は単に ref を作成し、それが次のフレームで利用可能になったときにコンポーネントを再レンダリングします。この参照を渡すこともできますし、コンテキスト プロバイダを介して参照を渡すこともできます。
+
+useRenderはuseFrameに書き換える
+
+The left-hand side of an assignment expression may not be an optional property access.ts(2779)
+
+ifでnullチェックしてあげる

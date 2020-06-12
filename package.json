@@ -1,0 +1,36 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "format": "prettier ./src/index.tsx"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-three-gui": "^0.1.5"
+  },
+  "devDependencies": {
+    "@types/eslint": "^6.8.1",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/prettier": "^2.0.1",
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "drei": "^0.0.58",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "parcel": "^1.12.4",
+    "prettier": "^2.0.5",
+    "react-spring": "^9.0.0-rc.3",
+    "react-three-fiber": "^4.2.8",
+    "three": "^0.117.1",
+    "typescript": "^3.9.5",
+    "typesync": "^0.7.0"
+  }
+}
