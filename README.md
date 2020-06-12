@@ -1,4 +1,6 @@
-# react-three-fiber+TypeScript でモデルを読み込んで，モデルの操作+視点操作を実装しました
+# このソースコードの中身について
+
+react-three-fiber+TypeScript でモデルを読み込んで，モデルの操作+視点操作を実装しました
 
 ## 注意事項
 
